@@ -165,7 +165,7 @@ require (
 	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sergi/go-diff v1.3.1 // indirect
-	github.com/swaggest/jsonschema-go v0.3.40 // indirect
+	github.com/swaggest/jsonschema-go v0.3.40
 	github.com/swaggest/refl v1.1.0 // indirect
 	github.com/vearutop/statigz v1.4.0 // indirect
 	github.com/yuin/goldmark v1.4.13

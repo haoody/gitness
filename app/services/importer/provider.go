@@ -17,6 +17,7 @@ package importer
 import (
 	"context"
 	"crypto/sha512"
+	"crypto/tls"
 	"encoding/base32"
 	"errors"
 	"fmt"
@@ -117,6 +118,11 @@ func oauthTransport(token string, scheme string) http.RoundTripper {
 	return &oauth2.Transport{
 		Scheme: scheme,
 		Source: oauth2.StaticTokenSource(&scm.Token{Token: token}),
+		Base: &http.Transport{
+			TLSClientConfig: &tls.Config{
+				InsecureSkipVerify: true,
+			},
+		},
 	}
 }
 
