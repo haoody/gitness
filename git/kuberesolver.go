@@ -14,10 +14,10 @@
 
 package git
 
-import (
-	"github.com/sercand/kuberesolver/v5"
-)
+// import (
+// 	"github.com/sercand/kuberesolver/v5"
+// )
 
-func init() {
-	kuberesolver.RegisterInCluster()
-}
+// func init() {
+// 	kuberesolver.RegisterInCluster()
+// }

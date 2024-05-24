@@ -1,0 +1,1044 @@
+gitness: Git仓库
+pageNotFound: 找不到页面
+signIn: 登录
+signUp: 注册
+email: 邮箱
+emailUser: 邮箱 / 用户ID
+password: 密码
+confirmPassword: 确认密码
+noAccount: 没有账号
+existingAccount: 已存在账号
+public: 公共
+private: 私有
+cancel: 取消
+cancelImport: 取消导入
+cancelledImport: 已取消导入
+failedToCancelImport: 取消导入失败
+name: 名称
+value: 值
+help: 帮助
+search: 查找
+description: 描述
+repositories: 仓库
+files: 文件
+commit: 提交
+committed: 已提交
+commits: 提交
+commitChanges: 提交更改
+pullRequests: 拉取请求
+settings: 设置
+newFile: 新的文件
+editFile: 编辑文件
+prev: Prev
+next: Next
+newFolder: 新的文件夹
+content: 内容
+history: 历史
+newRepo: 新建仓库
+createARepo: 创建一个仓库
+createRepo: 创建仓库
+enterRepoName: 输入仓库名称
+enterDescription: 输入描述（可选）
+addLicense: 添加License
+none: None
+create: 创建
+clone: 克隆
+copy: 复制
+defaultBranch: 默认
+defaultBranchTitle: 默认分支
+switchBranch: 切换分支
+confirmDefaultBranch:
+  title: 更改默认分支
+  message: '是否确实要将默认分支更新为 <strong style="color: var(--primary-7)">{{currentGitRef}}</strong> ?'
+  points: '打开的拉取请求仍将指向以前的默认分支，使用模式匹配的分支规则可能需要更新，克隆仓库现在将克隆新的默认分支'
+in: in
+ok: OK
+at: at
+on: On
+off: Off
+loading: Loading...
+title: 标题
+accessControl: 访问控制
+permissions: 成员
+permissionsFor: 成员 {{name}}
+addGitIgnore: 添加.gitignore文件
+addReadMe: 添加README文件
+failedToCreateRepo: 未能创建仓库, 请重试。
+status: 状态
+commitsOn: 提交时间 {{date}}
+viewCommitDetails: 查看提交详情
+copyCommitSHA: 复制提交 SHA
+branches: 分支
+branch: 分支
+activeBranches: 活动分支
+inactiveBranches: 非活动分支
+yourBranches: 你的分支
+allBranches: 所有分支
+newBranch: 新的分支
+createBranch: 创建分支
+createTag: 创建标签
+tagDescription: 在此处输入标签描述
+findBranch: 查找分行
+searchBranches: 搜索分支
+updated: 已更新
+cloneHTTPS: Git 克隆 URL
+nameYourFile: 为您的文件命名...
+noResultTitle: 抱歉,没有找到结果
+noResultMessage: 很遗憾，您搜索的内容未找到或不存在
+pageTitle:
+  signin: 登录
+  register: 注册新的账号
+  accessControl: 权限控制
+  spaceSettings: 工程设置
+  compare: 拉取请求比较
+  pullRequest: 拉取请求
+  pullRequests: 拉取请求
+  createWebhook: 创建 Webhook
+  webhooks: Webhooks
+  repositorySettings: 仓库设置
+  repositories: 仓库
+  branches: 分支
+  tags: 标签
+  editFileLocation: 编辑 {{{path}}}
+  repository: 仓库
+  home: 主页
+  users: 用户
+  userProfile: 用户信息
+  changePassword: 修改密码
+  pipelines: 管道
+  secrets: 密钥
+  executions: 执行
+  search: 由 AI 提供支持的搜索
+repos:
+  name: 仓库名称
+  data: Repo Data
+  activities: 每月活动
+  updated: 更新日期
+  lastChange: 最后修改
+  noDataMessage: 此项目中没有仓库。 创建一个新的仓库，或通过单击下面的链接导入现有的 Git 仓库。
+  enterBranchName: 输入分支名称
+createRepoModal:
+  branchLabel: '您的仓库将初始化为'
+  branch: ' 分支。'
+  publicLabel: 任何能够访问 Gitness 环境的人都可以克隆此仓库。
+  privateLabel: 您可以选择谁可以查看并提交到此仓库。
+  publicWarning: 请注意，任何有权访问 Gitness 环境的人都可以克隆此仓库。
+validation:
+  repoNamePatternIsNotValid: "名称只能包含字母数字, '-', '_', '.', 和 '$'"
+  gitBranchNameInvalid: 分支名称无效。
+  gitTagNameInvalid: 标签名称无效。
+  uidInvalid: 用户 ID 只能包含字母数字, '-', '_', '.', and '$'
+  nameInvalid: 名称只能包含字母数字, '-', '_', '.', and '$'
+  emailInvalid: 请输入有效的电子邮件地址
+  emailRequired: 电子邮件为必填项
+  uidRequired: 用户 ID 为必填项
+  nameIsRequired: 姓名为必填项
+  expirationDateRequired: 失效日期为必填项
+  newPasswordRequired: 新密码是必填字段
+  confirmPasswordRequired: 确认密码为必填字段
+  spaceNamePatternIsNotValid: "名称必须以字母或 '_' 开头, 并且只能包含字母数字"
+  nameLogic: 名称必须以字母或 _ 开头，并且只能包含 [a-zA-Z0-9-_.]
+  nameTooLong: 名称太长了
+  nameTooShort: 名称太短了
+  key: 密钥不能为空
+commitMessage: 提交消息
+optionalExtendedDescription: 可选扩展说明
+optional: 可选
+commitDirectlyTo: '直接提交到 <strong style="color: var(--primary-7)">{{gitRef}}</strong> 分支'
+commitToNewBranch: 为此提交创建一个 <strong>新分支</strong> 并启动拉取请求
+enterNewBranchName: 新分支名称
+onDate: on {{date}}
+deleteFile: 删除文件 __path__
+confirm: 确认
+createABranch: 创建分支
+createATag: 创建标签
+delete: 删除
+edit: 编辑
+editAsText: 以文本格式编辑
+branchName: 分支名称
+enterBranchPlaceholder: 在此处输入分支名称
+nameYourBranch: 为分支命名
+nameYourTag: 为标签命名
+enterTagPlaceholder: 在此处输入标签名称
+branchSource: 分支源
+branchSourceDesc: 选择源分支
+basedOn: 基于
+failedToCreateBranch: 无法创建 Branch, 请重试。
+branchCreated: 分支 {branch} 已创建。
+tagCreated: 标签 {{tag}} 已创建。
+confirmation: 确认
+deleteBranch: 删除分支
+deleteTag: 删除标签
+deleteTagConfirm: 是否确实要删除标签 <strong>{{name}}</strong>? 您无法撤消此操作。
+deleteBranchConfirm: 是否确实要删除分支 <strong>{{name}}</strong>? 您无法撤消此操作。
+cancelImportConfirm: 是否确实要中止 <strong>{{name}}</strong> 的导入? 您无法撤消此操作。
+browse: 浏览
+browseFiles: 浏览文件
+compare: 比较
+commitString: '提交  {commit}'
+repoDeleted: 仓库 {{repo}} 已删除。
+branchDeleted: 分支 {branch} 已删除。
+tagDeleted: 标签 {tag} 已删除。
+failedToDeleteBranch: 无法删除 Branch, 请重试。
+createFile: 创建 __path__
+updateFile: 更新 __path__
+renameFile: 重命名 __path__ 为 __newPath__
+switchBranchesTags: 切换 branches/tags
+tag: 标签
+tags: 标签
+findOrCreateBranch: 查找或创建分支
+findATag: 查找标签
+viewAllBranches: 查看所有分支
+viewAllTags: 查看所有标签
+createBranchFromBranch: "<strong>创建分支: {{newBranch}}</strong> from '{{target}}'</strong>"
+createBranchFromTag: "<strong>创建分支: {{newBranch}}</strong> from tag '{{target}}'</strong>"
+tagNotFound: '找不到 <strong>{{tag}}</strong> 标签。'
+branchNotFound: '找不到 <strong>{{branch}}</strong> 分支。'
+branchUpToDate: 与 {{defaultBranch}} 保持同步
+branchDivergenceBehind: '{behind} {behindCommits|1:commit,commits} behind {defaultBranch}'
+branchDivergenceAhead: '{ahead} {aheadCommits|1:commit,commits} ahead {defaultBranch}'
+branchDivergenceAheadBehind: '{ahead} {aheadCommits|1:commit,commits} ahead, {behind} {behindCommits|1:commit,commits} behind {defaultBranch}'
+noWebHooks: '这里没有 Webhook。尝试'
+deleteNotAllowed: 您必须在分支上才能删除此文件
+editNotAllowed: 您必须在分支上才能编辑此文件
+newFileNotAllowed: 您必须在分支上才能创建新文件
+fileDeleted: '__path__ 已成功删除。'
+newPullRequest: 新拉取请求
+pullRequestEmpty: 仓库中没有拉取请求。单击下面的按钮以创建拉取请求。
+comparingChanges: 比较更改
+selectToViewMore: 选择分支以在此处查看更多信息。
+createPullRequest: 创建拉取请求
+prefixBase: 'base: '
+prefixCompare: '比较: '
+selectBranchPlaceHolder: 在此处选择分支
+pullMustBeMadeFromBranches: 只能从两个不同的分支创建拉取请求
+prMustSelectSourceAndTargetBranches: 您必须选择源分支和目标分支
+prSourceAndTargetMustBeDifferent: 源分支和目标分支必须不同
+payloadUrl: '负载 URL'
+samplePayloadUrl: 'https://examples.com/harness'
+payloadUrlLabel: '负载 URL'
+secret: '密钥'
+webhookEventsLabel: '您希望触发此 Webhook 的事件'
+webhookSelectPushEvents: '只是推送事件'
+webhookSelectAllEvents: '把所有内容都发给我'
+webhookSelectIndividualEvents: '让我选择个别事件'
+webhookAllEventsSelected: '所有活动'
+branchTagCreation: '创建分支或标签'
+branchTagDeletion: '删除分支或标签'
+branchProtectionRules: '分支保护规则'
+checkRuns: '检查运行'
+checkSuites: 'Check suites'
+scanAlerts: '代码扫描警报'
+botAlerts: 'Dependabot 警报'
+security: '安全'
+deployKeys: '部署密钥'
+sslVerificationLabel: 'SSL验证'
+enableSSLVerification: '启用 SSL 验证'
+newWebhook: 新建 Webhook
+createAWebhook: 创建 Webhook
+createWebhook: 创建 Webhook
+webhook: Webhook
+diff: 差异
+draft: 草稿
+conversation: 会话
+pr:
+  toggleComments: 切换注释
+  suggestedChange: 建议的更改
+  addSuggestion: 将建议添加到批处理中
+  removeSuggestion: 从批处理中删除建议
+  commitSuggestions: '提交 {count|1:suggestion,suggestions}'
+  commitSuggestion: 提交建议
+  applySuggestions: '从代码审查中应用 {count|1:suggestion,suggestions}'
+  suggestionApplied: 采纳的建议
+  commentLineNumbers: 对 {{start}} 到 {{end}} 行进行注释
+  moreComments: '{num} {count|0:Show more,1:1 more comment,more comments}'
+  copyLinkToComment: 复制链接发表评论
+  expandFullFile: 展开全部
+  collapseFullFile: 折叠扩展线
+  ableToMerge: 允许合并.
+  cantBeMerged: 此分支与基分支冲突。
+  cantMerge: 无法合并。您仍然可以创建拉取请求。
+  failedToCreate: 无法创建拉取请求。
+  titlePlaceHolder: 输入拉取请求标题
+  descriptionPlaceHolder: 在此处添加拉取请求说明。
+  modalTitle: 打开拉取请求
+  createDraftPR: 创建草稿拉取请求
+  metaLine: '{user} {state|merged:merged,wants to merge} {commits} {commitsCount|1:commit,commits} into {target} from {source}'
+  executionState: '{state|success:Success,failed:Failed}'
+  state: '{state|closed:Closed,merged:Merged,rejected:Rejected,draft:Draft,Open}'
+  statusLine: '#{number} {state|merged:merged,closed:closed,rejected:rejected,opened} {time} by {user}'
+  diffStatus: '{status|deleted:Deleted,new:Added,renamed:Renamed,copied:Copied,Changed}'
+  showDiff: 显示差异
+  fileDeleted: 此文件已删除。
+  fileUnchanged: 文件不做任何更改。
+  diffTooLarge: 默认情况下，不会呈现较大的差异。
+  fileBinary: 未显示二进制文件。
+  showLink: '{count} changed {count|1:file,files}'
+  diffStatsLabel: 'Showing {changedFilesLink} with {addedLines} {addedLines|1:addition,additions} and {deletedLines} {deletedLines|1:deletion,deletions} {configuration}'
+  diffView: 差异视图
+  split: 拆分
+  unified: Unified
+  reviewChanges: 查看更改
+  mergePR: 合并拉取请求
+  branchHasNoConflicts: 此分支与基分支没有冲突
+  checkingToMerge: 检查自动合并的能力...
+  prCanBeMerged: 可以自动执行合并。
+  enterDesc: 在此处输入描述
+  failedToUpdate: 无法更新拉取请求, 请重试。
+  failedToUpdateTitle: 无法更新拉取请求标题, 请重试。
+  failedToSaveComment: 无法保存评论, 请重试。
+  failedToDeleteComment: 无法删除评论, 请重试。
+  failedToUpdateCommentStatus: 无法更新评论状态, 请重试。
+  prMerged: 此拉取请求已合并
+  prClosed: 此拉取请求已关闭。
+  reviewSubmitted: 已提交审核。
+  requestSubmitted: 已提交更改请求。
+  prReviewSubmit: '{user} {state|approved:approved, rejected:rejected,changereq:requested changes to, reviewed} this pull request.  {time}'
+  prMergedBannerInfo: '{user} merged branch {source} into {target} {time}.'
+  prMergedInfo: '{user} merged changes from {source} into {target} as {mergeSha} {time}'
+  prRebasedInfo: '{user} rebased changes from branch {source} onto {target}, now at {mergeSha} {time}'
+  prBranchPushInfo: '{user} pushed a new commit {commit}'
+  prBranchDeleteInfo: '{user} deleted the source branch with latest commit {commit}'
+  prStateChanged: '{user} changed pull request state from {old} to {new}.'
+  prStateChangedDraft: '{user} {changedToDraft|true:marked pull request as draft.,opened pull request for review.}'
+  titleChanged: '{user} changed title from {old} to {new}.'
+  titleChangedTable: |
+    ### Other title changes in history
+    | Author      | Old Name | New Name | Date |
+    | ----------- | -------- | -------- | ---- |
+  readyForReview: 准备审核
+  openForReview: 打开审核
+  authorCommentedPR: '{author} submitted this pull request {time}'
+  mergeOptions:
+    squashAndMerge: Squash and merge
+    squashAndMergeDesc: 此分支中的所有提交都将合并为基础分支中的一个提交。
+    createMergeCommit: 合并拉取请求
+    createMergeCommitDesc: 此分支的所有提交都将通过合并提交添加到基础分支中。
+    rebaseAndMerge: Rebase and merge
+    rebaseAndMergeDesc: 此分支中的所有提交都将重新变基并添加到基础分支中。
+    close: 关闭拉取请求
+    closeDesc: 关闭此拉取请求。关闭后，您仍然可以重新打开请求。
+  outdated: Outdated
+  titleIsRequired: 拉取请求标题是必需的。
+  descIsRequired: 拉取请求说明是必需的。
+  descIsTooLong: '描述太长 ({{len}}/{{max}} characters).'
+  descHasTooLongLine: '说明中的某些行超出了 {{max}} 字符的最大长度，可能会导致性能问题。考虑将它们分成更小的部分。'
+  draftOpenForReview:
+    title: 准备审核
+    desc: 打开此拉取请求进行审核。
+  status: 拉取请求检查状态
+  checks: Checks
+  checksFailure: '{failedCount}/{total} checks failed'
+  addDescription: 添加描述
+prState:
+  draftHeading: 此拉取请求仍在进行中
+  draftDesc: 无法合并草稿拉取请求。
+prChecks:
+  error: '{count}/{total} {count|1:check,checks} errored out.'
+  failure: '{count}/{total} {count|1:check,checks} failed.'
+  running: '{count}/{total} {count|1:check,checks} running.'
+  pending: '{count}/{total} {count|1:check,checks} pending.'
+  skipped: '{count}/{total} {count|1:check,checks} skipped.'
+  success: '{count}/{total} {count|1:check,checks} succeeded.'
+  killed: '{count}/{total} {count|1:check,checks} killed.'
+  notFound: 未找到此存储库的管道或外部检查。
+  viewExternal: View Details
+webhookListingContent: 'create,delete,deployment ...'
+general: 'General'
+webhooks: 'Webhooks'
+open: Open
+merged: Merged
+enabled: Enabled
+closed: Closed
+close: Close
+reject: Reject
+rejected: Rejected
+yours: Yours
+all: All
+scrollToTop: Scroll to top
+filesChanged: Changes
+viewed: Viewed
+changedSinceLastView: Changed since last view
+comment: Comment
+addComment: Add comment
+replyHere: Reply here...
+reply: Reply
+replyAndResolve: Reply & Resolve
+replyAndReactivate: Reply & Reactivate
+leaveAComment: Leave a comment...
+lineBreaks: Line Breaks
+quote: Quote
+deleteCommentConfirm: Are you sure you want to delete this comment?
+write: Write
+preview: Preview
+save: Save
+edited: edited
+deleted: deleted
+commentDeleted: This comment was deleted.
+enterSecret: Enter secret
+confirmDeleteWebhook: Are you sure you want to delete this webhook?
+webhookDeleted: Webhook deleted.
+failedToDeleteWebhook: Failed to delete Webhook. Please try again.
+webhookDetails: Webhook Details
+updateWebhook: Update Webhook
+webhookUpdated: Webhook updated successfully.
+webhookCreated: Webhook created successfully.
+oneMustBeSelected: At least one event must be selected
+webhookBranchCreated: Branch created
+webhookBranchUpdated: Branch updated
+webhookBranchDeleted: Branch deleted
+webhookTagCreated: Tag created
+webhookTagUpdated: Tag updated
+webhookTagDeleted: Tag deleted
+webhookPRBranchUpdated: PR branch updated
+webhookPRCreated: PR created
+webhookPRReopened: PR reopened
+webhookPRClosed: PR closed
+webhookPRCommentCreated: PR comment created
+webhookPRMerged: PR merged
+nameYourWebhook: Name your webhook
+submitReview: Submit Review
+approve: Approve
+requestChanges: Changes Requested
+repoEmptyMarkdown: |
+  ## This repository is empty
+
+  ### Get started by
+
+  Creating [a new file](NEW_FILE_URL).
+repoEmptyMarkdownClone: |
+  ### Or you can clone this repository
+
+  Clone with HTTPS
+  ```sh
+  git clone REPO_URL
+  ```
+repoEmptyMarkdownClonePush: |
+  Then push some content into it.
+
+  ```sh
+  cd REPO_NAME
+  git branch -M DEFAULT_BRANCH
+  echo "# Hello World" >> README.md
+  git add README.md
+  git commit -m "Initial commit"
+  git push -u origin DEFAULT_BRANCH
+  ```
+repoEmptyMarkdownExisting: |
+  ### Or you can push an existing repository
+
+  ```sh
+  git remote add origin REPO_URL
+  git branch -M DEFAULT_BRANCH
+  git push -u origin DEFAULT_BRANCH
+  ```
+
+  You might need [to create an API token](CREATE_API_TOKEN_URL) in order to pull from or push into this repository.
+webhookEmpty: 仓库中没有 Webhook。单击下面的按钮以创建 Webhook。
+compareEmptyDiffTitle: 没有什么可比较的
+compareEmptyDiffMessage: 两个分支是相同的。
+noCommits: 没有提交
+noCommitsMessage: 此仓库尚无任何提交。
+noCommitsPR: 此拉取请求没有提交历史记录。
+noChanges: 没有变化
+noChangesPR: 此拉取请求没有任何更改。
+noChangesCompare: 源和目标相同。
+pageLoading: 加载中，请稍候...
+repoCloneHeader: 或者，您可以克隆此仓库
+repoCloneLabel: 使用HTTPS克隆
+emptyRepoHeader: 此仓库为空。让我们开始吧...
+addNewFile: + 新建文件
+emptyRepoInclude: 我们建议每个仓库都包含 {README}、{LICENSE} 和 {GITIGNORE}。
+readMe: README,
+license: LICENSE
+gitIgnore: .gitignore
+and: 和
+error404Text: 这不是您要查找的网页
+branchDoesNotHaveFile: The "{repoName}" repository doesn't contain the "{fileName}" path in the "{branchName}" branch
+webhookDialogTitle: Turn ON/OFF Webhook
+webhookDialogContent: Please confirm you want to on/off this webhook
+pullRequestalreadyExists: Pull request {prLink} already exists.
+makeRequired: Make Required
+makeOptional: Make Optional
+remove: Remove
+required: Required
+isRequired: is required
+noneYet: None Yet
+noOptionalReviewers: No Optional Reviewers
+noRequiredReviewers: No Required Reviewers
+reviewers: Reviewers
+refresh: Refresh
+enableWebhookTitle: Enable the Webhook
+disableWebhookTitle: Disable the Webhook
+enableWebhookContent: Please confirm that you wanted to turn on {name}.
+disableWebhookContent: Please confirm that you wanted to turn off {name}.
+ascending: Ascending
+descending: Descending
+active: Active
+pending: Pending
+resolved: Resolved
+showEverything: Show Everything
+allComments: All comments
+whatsNew: What's new
+myComments: My comments/replies
+resolvedComments: Resolved comments
+unrsolvedComment: Unresolved comment
+resetZoom: Reset Zoom
+zoomIn: Zoom In
+zoomOut: Zoom Out
+checks: Checks
+blameCommitLine: '{author} committed {timestamp}'
+tooltipRepoEdit: You are not authorized to {PERMS}
+missingPerms: 'You are missing the following permission:'
+createRepoPerms: 'Create / Edit Repository'
+missingPermsContent: '"{PERMS}" in project "{PROJECT}"'
+repositoryName: Repository name
+dangerDeleteRepo: 危险，你确定要删除它吗？
+repoUpdate: Repository Updated
+deleteRepoText: Are you sure you want to delete the repository '{REPONAME}'?
+deleteRepoTitle: Delete the repository
+resolve: Resolve
+reactivate: Reactivate
+generateCloneCred: + 生成克隆凭据
+generateCloneText: '如果这是您第一次，请生成克隆凭据'
+getMyCloneTitle: 生成克隆凭据
+cloneText: 您的克隆凭据已生成。请确保将您的密码复制并存储在安全的地方，您将无法再次看到它。
+manageApiToken: 管理 API 令牌
+userName: 管理 API 令牌
+passwordApi: 密码 (API 令牌)
+firstTimeTitle: 如果这是您第一次克隆仓库，请生成 Git 凭据
+manageCredText: 您还可以管理您的 git 凭据 {URL}
+blame: Blame
+blameEmpty: File is empty. No blame information available.
+viewRaw: View Raw
+download: Download
+changes: Changes
+contents: Contents
+unsavedChanges:
+  title: Close without saving?
+  message: 'You have unsaved changes. Are you sure you want to leave this page without saving?'
+  leave: Leave this Page
+  stay: Stay on this Page
+creationDate: Creation Date
+viewFiles: View Files
+tagger: Tagger
+confirmDelete: Confirm delete
+tagEmpty: There are no tags in your repo. Click the button below to create a tag.
+newTag: New Tag
+overview: Overview
+fileTooLarge: File is too large to open. {download}
+clickHereToDownload: Click here to download.
+viewFileHistory: View the file at this point in the history
+viewRepo: View the repository at this point in the history
+hideCommitHistory: Renamed from {file} - Hide History
+showCommitHistory: Renamed from {file} - Show History
+noReviewers: No Reviewers
+assignPeople: Assign people
+add: Add +
+addLabel: Add
+updateLabel: Update
+users: Users
+findAUser: Find a user
+reviewerNotFound: 'Reviewer {reviewer} not found.'
+spaces: Projects
+space: Project
+selectSpace: 在此选择项目
+copyBranch: 复制分支名称
+noAccount?: 没有账号?
+alreadyHaveAccount: 已经存在账号?
+privacyPolicy: 隐私策略
+termsOfUse: 使用条款
+bySigningIn: 注册即表示您同意我们的 {policy} 和我们的 {terms}
+userId: 用户 ID
+characterLimit: 6+ characters
+enterUser: 在此处输入用户 ID ...
+userNameRequired: 用户名为必填项
+passwordRequired: 密码为必填项
+emailRequired: 电子邮件为必填项
+minPassLimit: 密码太短，至少应为 6 个字符。
+confirmPassRequired: 确认密码为必填项
+matchPassword: 密码必须匹配
+userCreated: 用户已创建
+admin: 管理员
+removeAdmin: 删除管理员
+setAsAdmin: 设置为管理员
+createUser: 创建用户
+editUser: 编辑用户
+updateUser: 更新用户
+deleteUser: 删除用户
+createNewUser: 创建新用户
+displayName: 显示名称
+accountEmail: Email账号
+changePassword: 修改密码
+logoutMsg: 您确认要注销当前帐户吗
+logOut: 登出
+enterNewPassword: 输入<b>新的</b>密码
+confirmNewPassword: 确认<b>新的</b>密码
+accountSetting: 账号设置
+nDays: '{{number}} 天'
+expiration: 过期
+noExpiration: 不过期
+noExpirationDate: token将永不过期!
+token: Token
+expired: 失效
+expirationDate: 失效日期
+created: Created
+changePasswordSuccesfully: Password changed successfully
+applyChanges: 应用更改
+showMore: 查看更多
+showLess: View less
+createNewToken: 创建新token
+newToken:
+  text: 新的Token
+  namePlaceholder: 输入名称
+  expireOn: 令牌将于 {{date}} 到期
+  generateToken: 生成Token
+  tokenHelptext: 您的令牌已生成。请确保将您的令牌复制并存储在安全的地方，您将不会再次看到它。
+deleteToken: 删除令牌
+deleteTokenMsg: 删除令牌成功
+userProfile:
+  deleteTokenMsg: 是否确实要删除此令牌？
+profile: Profile
+userManagement:
+  text: 用户管理
+  newUser: 新的用户
+  deleteUser: 删除用户
+  deleteUserMsg: 你确定要删除 {avatar} {{displayName}} (用户 ID:{{userId}})?
+  resetPassword: 重置密码
+  resetPasswordMsg: 是否确实要重置 {avatar} {{displayName}} (用户 ID:{{userId}}) 的密码？
+  removeAdminMsg: Are you sure you want to remove {avatar} {{displayName}} (user ID:{{userId}}) as an admin?
+  setAsAdminMsg: Are you sure you want to set {avatar} {{displayName}} (user ID:{{userId}}) as an admin?
+newUserModal:
+  uidPlaceholder: 'Enter the user ID here'
+  uidWarning: User ID cannot be changed once created
+  emailPlaceholder: Enter the email here
+  displayNamePlaceholder: Enter the display name here
+  passwordHelptext:
+    Your password has been generated. Please make sure to copy and store your password somewhere safe, you wont be
+    able to see it again.
+  userCreated: User created successfully
+  userUpdated: User updated successfully
+  userDeleted: User '{{name}}' deleted successfully
+selectSpaceText: 选择一个项目
+user: 用户
+role: 角色
+addMember: 添加成员
+addUserToSpace2: 添加成员到该项目
+spaceMemberships:
+  addMember: 将成员添加到 {{name}}
+  changeRole: 修改角色
+  removeMember: 删除成员
+  removeMembershipMsg: Are you sure you want to remove this member?
+  removeMembershipToast: Member removed successfully
+  memberUpdated: Member updated successfully.
+  memberAdded: Member added successfully.
+failedToCreateSpace: Failed to create Project. Please try again.
+failedToImportSpace: Failed to import Project. Please try again.
+failedToCreatePipeline: Failed to create Pipeline. Please try again.
+failedToSavePipeline: Failed to save Pipeline. Please try again.
+enterName: 输入名称
+createASpace: 创建一个项目
+createSpace: 创建项目
+newSpace: 新项目
+emptySpaceText: '现在是空的，请创建一个新项目'
+homepage:
+  welcomeText: 欢迎 {{currentUser}}, 让我们开始使用Gitness!
+  firstStep: 项目包含 repositories 和 pipelines。 创建一个新项目以开始使用 Gitness
+  selectSpaceTitle: 选择一个项目开始
+  selectSpaceContent: 项目包含 repositories 和 pipelines。 要开始使用 Gitness, 请选择一个项目或创建一个新项目。
+  selectSpace: 选择项目
+deleteSpace: 删除项目
+spaceSetting:
+  intentText: 这将永久删除名为 '{{space}}' 的项目，以及其中包含的所有内容。此项目中的所有仓库都将被删除。
+  deleteWarning: 如果你不读这篇文章，就会发生意想不到的坏事
+  deleteConfirm1: 这将永久删除 '{{space}}' 项目及其包含的所有内容。 此项目中的所有仓库都将被删除。
+  deleteConfirmButton1: 我想删除这个项目
+  deleteConfirm2: 确认，请在下面的框中输入 "{{space}}"
+  deleteConfirmButton2: 删除这个项目
+  deleteToastSuccess: 删除项目成功
+  settings: 设置
+contributor: 贡献者
+reader: Reader
+executor: Executor
+owner: Owner
+changeRole: 更改角色
+running: 运行
+success: 成功
+failed: 失败
+error: 错误
+skipped: 忽略
+killed: Killed
+repoDelete:
+  title: 删除仓库
+  deleteConfirm1: 这将永久删除 "{{repo}}" 仓库。
+  deleteConfirmButton1: 我想删除此仓库
+  deleteConfirm2: 确认，请在下面的框中键入 "{{repo}}"
+  deleteToastSuccess: 仓库已成功删除
+  deleteConfirmButton2: 删除此仓库
+pipelines:
+  noData: 当前没有管道
+  import: 导入管道
+  newPipelineButton: 新的管道
+  name: 管道名称
+  createNewPipeline: 创建新的管道
+  enterPipelineName: 输入管道名称
+  yamlPath: YAML路径
+  enterYAMLPath: 输入YAML路径
+  failedToCreatePipeline: 创建管道失败
+  saveAndRun: 保存并运行
+  editPipeline: 编辑管道 {{pipeline}}
+  edit: 编辑管道
+  run: 运行管道
+  time: Time
+  lastExecution: 上次执行
+  created: 管道创建成功
+  updated: 管道更新成功
+  executionStarted: 启动管道执行成功
+  executionCouldNotStart: 启动管道执行失败
+  deletePipelineWarning: 这将永久删除 {{pipeline}} 管道和所有执行。
+  deletePipelineButton: 删除管道
+  deletePipelineConfirm: 是否确认要删除管道 <strong>{{pipeline}}</strong>? 您无法撤消此操作。
+  deletePipelineSuccess: 管道 {{pipeline}} 已删除。
+  deletePipelineError: 删除管道失败，请重新尝试。
+  updatePipelineSuccess: Pipeline {{pipeline}} updated.
+  failedToUpdatePipeline: 无法更新管道，请重新尝试。
+  settings: 管道设置
+  executionCancelled: 管道执行已取消。
+  executionCouldNotCancel: 取消管道执行时失败。
+  failedToFindPath: 未能找到路径
+  failedToGenerate: 无法生成管道
+executions:
+  noData: There are no executions
+  newExecutionButton: Run Pipeline
+  name: Execution Name
+  description: Description
+  time: Time
+  completedTime: completed {{timeString}} ago
+  canceledTime: canceled {{timeString}} ago
+  started: Execution started
+  failed: Failed to start build
+  newExecution: Run Pipeline
+selectRange: Shift-click to select a range
+allCommits: All Commits
+secrets:
+  noData: There are no secrets
+  newSecretButton: New Secret
+  create: Create a secret
+  name: Secret Name
+  failedToCreate: Failed to create Secret. Please try again.
+  enterSecretName: Enter Secret name
+  enterSecretValue: Enter Secret value
+  createSecret: Create Secret
+  createSuccess: Secret created successfully
+  secretDeleted: Secret {uid} deleted.
+  secretUpdated: Secret {uid} updated.
+  deleteSecretConfirm: Are you sure you want to delete secret <strong>{{uid}}</strong>? You can't undo this action.
+  failedToDeleteSecret: Failed to delete Secret. Please try again.
+  failedToUpdateSecret: Failed to update Secret. Please try again.
+  deleteSecret: Delete secret
+  updateSecret: Update secret
+  showValue: Show Value
+userUpdateSuccess: 'User updated successfully'
+viewFile: View File
+searchResult: 'Search Result {count}'
+aiSearch: AIDA SEARCH
+enableAISearch: Enable AI Search
+enableAIDAPRDescription: Auto generate PR description
+enableAIDAPRMessange: To generate a PR description using Harness AIDA, you need to enable it in the Project Settings.
+enableAIDAMessage: In order to use Harness AIDA Search, you will need to enable it in the Project Settings
+reviewProjectSettings: Review Project Settings
+turnOnSemanticSearch: Turn on semantic search
+AIDA: AIDA
+keywordSearch:
+  sampleQueries:
+    searchForClass: Search for class
+    searchForFilesWithCMD: Search for class in files starting with cmd
+    searchForPattern: Include only results from file paths matching the given search pattern
+    searchForInitialCommit: Search for exact phrase initial commit
+keywordSearchPlaceholder: Search for code or files...
+codeSearch: Code Search
+codeSearchModal: Begin search by describing what you are looking for
+searchHeader: 'Here are a few examples to help you get started:'
+startSearching: Begin search by describing what you are looking for.
+poweredByAI: Unlock the power of AI with Semantic Code search. Try phrases like "Locate the code for authentication".
+semanticSearch:
+  sampleQueries: Where is the code that handles authentication?,Where is the application entry point?,Where do we configure the logger?
+failedToFetchFileContent: 'ERROR: Failed to fetch file content.'
+run: Run
+plugins:
+  title: Plugins
+  stepLabel: step
+  select: Select a plugin
+pluginsPanel:
+  plugins:
+    helptext: Run a plugin step
+  run:
+    helptext: Run a container or a shell command
+    script: Script
+    shell: Shell
+    sh: Sh
+    bash: Bash
+    powershell: Powershell
+    pwsh: Pwsh
+    image: Image
+    credentials: Credentials
+    username: Username
+    password: Password
+    pull: Pull
+    entrypoint: Entrypoint
+    network: Network
+    networkMode: Network Mode
+    privileged: Privileged
+    path: Path
+    always: Always
+    never: Never
+    ifNotExists: If not exists
+createNewRepo: Create New repository
+importGitRepo: Import Repository
+importGitRepos: Import Repositories
+importRepo:
+  title: Import Repository
+  url: Host URL
+  org: Organization
+  workspace: Workspace
+  project: Project
+  group: Group
+  repo: Repository
+  urlPlaceholder: Enter the Host URL
+  repoPlaceholder: Enter the Repository name
+  orgPlaceholder: Enter the Organization name
+  workspacePlaceholder: Enter the Workspace name
+  projectPlaceholder: Enter the Project name
+  groupPlaceholder: Enter the Group name
+  reqAuth: Requires Authorization
+  userPlaceholder: Enter Username
+  passToken: Token
+  passTokenPlaceholder: Enter Token
+  appPassword: App Password
+  appPasswordPlaceholder: Enter App Password
+  failedToImportRepo: Failed to import repository. Please try again.
+  validation: Invalid GitHub or GitLab URL
+  required: Repository URL is required
+  spaceNameReq: Enter a name for the new project
+  usernameReq: Username is required
+  passwordReq: Password is required
+importRepos:
+  title: Import Repositories
+  content: Import multiple repositories from GitLab Group, GitHub Org or Bitbucket Project to this project in Gitness.
+importSpace:
+  title: Import Project
+  createASpace: Create a project
+  authorization: Authorization
+  content: Import a GitLab Group, GitHub Org or Bitbucket Project to a new Project in Gitness. Entities at the top level will be imported to the project.
+  next: Next step
+  details: Details of target to import
+  organizationName: Organization Name
+  orgNamePlaceholder: Enter the org name here
+  spaceName: Project Name
+  description: Description (optional)
+  descPlaceholder: Enter the description
+  importLabel: What to import
+  providerRequired: Git Provider is required
+  orgRequired: Organization name is required
+  spaceNameRequired: Project name is required
+  gitProvider: Git Provider
+  invalidUrl: Invalid GitHub or GitLab URL
+  githubOrg: GitHub Organization Name
+  gitlabGroup: GitLab Group Name
+importProgress: 'Import in progress...'
+triggers:
+  newTrigger: 新的触发器
+  createTrigger: 创建触发器
+  createSuccess: 创建触发器成功
+  failedToCreate: 创建触发器失败，请重试。
+  enterTriggerName: 输入触发器名称
+  actions: 动作
+  updateSuccess: 更新触发器成功
+  failedToUpdate: 更新触发器失败，请重试。
+  deleteTrigger: 删除触发器
+  disableTrigger: 禁用触发器
+  deleteTriggerConfirm: 是否确定要删除触发器 <strong>{{name}}</strong>? 您无法撤消此操作。
+  deleteTriggerSuccess: 触发器 {{name}} 已删除。
+  deleteTriggerError: 删除触发器失败，请重试。
+step:
+  select: 选择一个步骤
+stepCategory:
+  select: 选择步骤类别
+exportSpace:
+  harness: Harness
+  accIdRequired: Account ID is required
+  accesstokenReq: Access token is required
+  accIdLabel: 'Harness Account ID'
+  accIdPlaceholder: 'Enter the Harness Account ID'
+  tokenLabel: 'Harness Account Token'
+  tokenPlaceholder: 'Enter the access token here'
+  organization: Organization ID
+  orgIdPlaceholder: Enter the organization ID here
+  projectName: Project ID
+  projectIdPlaceholder: Enter the project ID here
+  entitiesLabel: Entities to upgrade
+  projectOrg: Project Organization
+  repoToConvert: '{length} {length|1:repository,repositories} to be upgraded'
+  startUpgrade: Start Upgrade
+  upgradeHarness: Upgrade to Harness
+  newProject: Harness Project Details
+  upgradeConfirmation: Upgrade Confirmation
+  upgradeTitle: Upgrade this project to the Harness Software Delivery platform
+  upgrade: Upgrade to Harness
+  upgradeContent: The upgrade will import all repositories into an existing organization and project in Harness Code. Learn more about Harness Code here.
+  upgradeProgress: 'Upgrading in progress'
+  upgradeFailed: 'Upgrade Failed! Please validate your credentials and try again.'
+  exportCompleted: Upgrade Completed
+  exportFailed: Upgrade Failed
+  exportRepoCompleted: Upgraded {repoCount} {repoCount|1:repository,repositories}
+  exportRepo: Upgrading {repoCount} {repoCount|1:repository,repositories}
+spaceUpdate: Project Updated
+generate: Generate
+generateHelptext: Let Gitness build your Pipeline for you.
+enterAddress: Enter Address
+enterGitlabPlaceholder: https://gitlab.com/
+enterGithubPlaceholder: https://api.github.com/
+enterBitbucketPlaceholder: https://bitbucket.org/
+changeRepoVis: Change repository visibility
+changeRepoVisContent: Are you sure you want to make this repository {repoVis}?
+confirmRepoVisButton: Yes, make the Repository {repoVis}
+repoVisibility: Repository visibility
+visibility: Visibility
+attachText: Attach images & videos by dragging & dropping, selecting or pasting them.
+key: Key
+setting: Setting
+mergeCommit: Merge commit
+squashMerge: Squash and merge
+rebaseMerge: Rebase and merge
+Enable: Enable
+imageUpload:
+  title: Upload attachment
+  readyToUpload: Ready for upload
+  upload: Upload
+  text: Drag and drop a file here or click browse to select a file.
+branchProtection:
+  namePlaceholder: Enter the rule name here
+  descPlaceholder: Enter the description here
+  title: Rules
+  edit: Edit Rule
+  create: Create Rule
+  targetBranches: Target Patterns
+  targetPlaceholder: Enter the target patterns
+  targetPatternHint: Match branches using globstar patterns (e.g. "golden", "feature-*", "releases/**")
+  defaultBranch: Default branch
+  bypassList: Bypass List
+  newRule: New branch rule
+  allRepoOwners: Allow users with edit permission on the repository to bypass
+  protectionSelectAll: 'Rules: Select all that apply'
+  requireMinReviewersTitle: Require a minimum number of reviewers
+  requireMinReviewersContent: Require approval on pull requests from a minimum number of reviewers
+  minNumber: Minimum number
+  minNumberPlaceholder: Enter the minimum number
+  reqReviewFromCodeOwnerTitle: Require review from code owners
+  reqReviewFromCodeOwnerText: Require approval on pull requests from one reviewer for each Code Owner rule
+  reqNewChangesTitle: Require approval of new changes
+  reqResOfChanges: Require resolution of change requests
+  reqResOfChangesText: All change requests on a pull request must be resolved before it can be merged
+  reqNewChangesText: Require re-approval when there are new changes in the pull request
+  reqCommentResolutionTitle: Require comment resolution
+  reqCommentResolutionText: All comments on a pull request must be resolved before it can be merged
+  reqStatusChecksTitle: Require status checks to pass
+  reqStatusChecksText: Selected status checks must pass before a pull request can be merged
+  statusCheck: Status checks
+  limitMergeStrategies: Limit merge strategies
+  limitMergeStrategiesText: Limit which merge strategies are available to merge a pull request
+  autoDeleteTitle: Auto delete branch on merge
+  autoDeleteText: Automatically delete the source branch of a pull request after it is merged
+  blockBranchCreation: Block branch creation
+  blockBranchCreationText: Only allow users with bypass permission to create matching branches
+  blockBranchDeletion: Block branch deletion
+  blockBranchDeletionText: Only allow users with bypass permission to delete matching branches
+  editRule: Edit Rule
+  saveRule: Save Rule
+  deleteRule: Delete Rule
+  ruleDeleted: Rule Deleted
+  ruleEmpty: There are no rules in your repo. Click the button below to create a rule.
+  createRule: Create rule
+  deleteProtectionRule: Delete protection rule
+  deleteText: "Are you sure to delete the rule, '{{rule}}'?"
+  disableTheRule: Disable the Rule
+  ruleUpdated: Rule Updated
+  enableTheRule: Enable the Rule
+  ruleCreated: Rule Created
+  requirePr: Require pull request
+  requirePrText: Do not allow any changes to matching branches without a pull request
+  prFailedText: 'This branch has no conflicts with the base branch. {{ruleCount}} branch rules failed'
+  mergePrAlertTitle: Merge pull request alert
+  mergePrAlertText: 'Merge cannot be completed. {{ruleCount}} branch rules failed: '
+  mergeCheckboxAlert: Bypass branch rules and merge
+  createBranchAlertBtn: Bypass rules and create branch
+  createBranchAlertText: Some rules will be bypassed by creating branch
+  createBranchBlockText: Some rules don't allow you to create branch
+  deleteBranchAlertBtn: Bypass rule and confirm delete
+  deleteBranchAlertText: Some rules will be bypassed while deleting branch
+  deleteBranchBlockText: Some rules don't allow you to delete branch
+  commitNewBranchAlertBtn: Bypass rules and commit via new branch
+  commitNewBranchAlertText: Some rules will be bypassed to commit by creating branch
+  commitNewBranchBlockText: Some rules don't allow you to create new branch for commit
+  commitDirectlyBlockText: Some rules don't allow you to commit directly
+  commitDirectlyAlertText: Some rules will be bypassed to commit directly
+  commitDirectlyAlertBtn: Bypass rules and commit directly
+codeOwner:
+  title: Code Owner
+  changesRequested: '{count} {count|1:change,changes} requested'
+  waitToApprove: '{count} pending {count|1:approval,approvals} '
+  approvalCompleted: '{count}/{total} approvals completed'
+approved: Approved
+comingSoon: Coming soon...
+enterANumber: Enter a number
+selectUsers: Select Users
+selectStatuses: Select Statuses
+featureRoadmap: Feature Roadmap
+pipelineConfig:
+  label: 管道配置
+  yamlUpdated: 看起来YAML被修改了。刷新更改?
+discard: 丢弃
+language: Language
+selectLanguagePlaceholder: '- Select language here -'
+selectRepositoryPlaceholder: '- Select repository here -'
+results: Results
+showNMoreMatches: Show {{ n }} more matches
+showLessMatches: Show less
+clear: Clear
+searchExamples: Search Examples
+nMoreMatches: This file contains {{ n }} more matches not shown.
+seeNMoreMatches: See all {{ n }} matches in the full file
+bottom: Bottom
+top: Top
+customTime: '{{days}} {{hours}} {{minutes}} {{seconds}}'
+customDay: '{{days}}d'
+customHour: '{{hours}}h'
+customMin: '{{minutes}}m'
+customSecond: '{{seconds}}s'
+reqChanges: 'Request changes'
+summary: Summary
+prGenSummary: AIDA generate PR summary, insert at the cursor or replace selected text only.
+aidaGenSummary: 'AIDA is generating a summary...'
+generateSummary: Generate PR Summary
+invalidResponse: Invalid summary response generated
+importFailed: Import Failed
+uploadAFileError: There is no image or video uploaded. Please upload an image or video.
+securitySettings:
+  scanningSecret: Secret Scanning
+  scanningSecretDesc: Block commits containing secrets like passwords, API keys, and tokens.
+  vulnerabilityScanning: Vulnerability Scanning
+  vulnerabilityScanningDesc: Scan incoming commits for known vulnerabilities
+  failedToUpdate: Failed to update security settings
+  updateSuccess: Updated security settings
+  detect: Detect
+  detectDesc: passive vulnerability will report errors but not block
+  block: Block
+  blockDesc: active vulnerability blocks commit if any vulnerability is found
+suggestion: 'Add a suggestion, <Ctrl-g>'
+heading: Heading
+bold: Bold
+italic: Italic
+upload: Upload
+unorderedList: Unordered list
+checklist: Check list
+code: Code

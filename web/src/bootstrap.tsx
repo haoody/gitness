@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { noop } from 'lodash-es'
-import { routes } from 'RouteDefinitions'
 import { defaultCurrentUser } from 'AppContext'
+import { defaultUsefulOrNot } from 'components/DefaultUsefulOrNot/UsefulOrNot'
 import { useFeatureFlags } from 'hooks/useFeatureFlag'
 import { useGetSettingValue } from 'hooks/useGetSettingValue'
-import { defaultUsefulOrNot } from 'components/DefaultUsefulOrNot/UsefulOrNot'
+import { noop } from 'lodash-es'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { routes } from 'RouteDefinitions'
 import App from './App'
 import './bootstrap.scss'
 
@@ -35,6 +35,7 @@ ReactDOM.render(
   <App
     standalone
     routes={routes}
+    lang="cn"
     hooks={{
       usePermissionTranslate: noop,
       useExecutionDataHook: noop,

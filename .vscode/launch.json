@@ -5,13 +5,29 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "web",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "yarn",
+            "runtimeArgs": [
+                "dev"
+            ],
+            "cwd": "${workspaceFolder}/web",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+        {
             "name": "Gitness",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "buildFlags": "",
             "program": "cmd/gitness",
-            "args": ["server", "../../.local.env"]
+            "args": [
+                "server",
+                "../../.local.env"
+            ]
         }
     ]
 }

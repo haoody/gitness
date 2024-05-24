@@ -14,13 +14,15 @@
  * limitations under the License.
  */
 
-export type LangLocale = 'es' | 'en' | 'en-IN' | 'en-US' | 'en-UK'
+export type LangLocale = 'es' | 'en' | 'en-IN' | 'en-US' | 'en-UK' | 'cn'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type LanguageRecord = Record<string, Record<string, any>>
 
 export function languageLoader(langId: LangLocale = 'en'): Promise<LanguageRecord> {
   switch (langId) {
+    case 'cn':
+      return import('../../i18n/strings.cn.yaml')
     case 'es':
       return import('../../i18n/strings.es.yaml')
     case 'en':
