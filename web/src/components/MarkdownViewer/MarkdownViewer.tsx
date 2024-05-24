@@ -102,7 +102,6 @@ export function MarkdownViewer({
       ref={ref}>
       <MarkdownPreview
         source={source}
-        skipHtml={false}
         warpperElement={{ 'data-color-mode': darkMode ? 'dark' : 'light' }}
         rehypeRewrite={(node, _index, parent) => {
           if ((node as unknown as HTMLDivElement).tagName === 'a') {
@@ -165,7 +164,7 @@ export function MarkdownViewer({
             if (
               typeof code === 'string' &&
               typeof _className === 'string' &&
-              'language-suggestion' === _className.toLocaleLowerCase()
+              'language-suggestion' === _className.split(' ')[0].toLocaleLowerCase()
             ) {
               return (
                 <CodeSuggestionBlock
